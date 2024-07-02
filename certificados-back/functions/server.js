@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import serverless from "serverless-http";
-import { getMyTop5PowerRangersSeasons } from "./topSeasons.js";
+import { getCertificates } from "./MOCK-CERTIFICATES.js";
 
 var app = express();
 app.use(cors());
@@ -9,8 +9,8 @@ app.use(cors());
 var port = process.env.PORT || 5000;
 const router = express.Router();
 
-router.get("/my-top-5-power-rangers-seasons", function (req, res) {
-  res.json(getMyTop5PowerRangersSeasons());
+router.get("/certs", function (req, res) {
+  res.json(getCertificates());
 });
 
 // Iniciar servidor
