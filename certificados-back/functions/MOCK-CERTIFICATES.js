@@ -4,7 +4,7 @@ export const getCertificates = () => {
       id: 1,
       title: "CILSA Full Stack Developer",
       provider: "CILSA",
-      state: "pending",
+      state: "in progress",
       startDate: "2024",
       finishDate: "2024",
       durationInMonth: 8,
