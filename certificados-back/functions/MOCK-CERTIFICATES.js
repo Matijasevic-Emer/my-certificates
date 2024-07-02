@@ -14,7 +14,7 @@ export const getCertificates = () => {
     },
     {
       id: 2,
-      title: " Desarrollo web. JavaScript desde cero. Edición 2018-2019",
+      title: " Desarrollo web. JavaScript desde cero.Edición 2018-2019",
       provider: "UDEMY",
       state: "complete",
       startDate: "2023",
