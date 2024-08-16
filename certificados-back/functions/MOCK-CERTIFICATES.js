@@ -1,6 +1,18 @@
 export const getCertificates = () => {
   return [
     {
+      id: 10,
+      title: "Desarrollador Backend - Ruby on Rails",
+      provider: "WebExperto",
+      state: "En curso",
+      startDate: "Agosto 2024",
+      finishDate: "Enero 2025",
+      durationInMonth: 8,
+      stack: ["Docker", "Ruby", "Rails", "Linux"],
+      linkCert: "",
+      imageBase64: "",
+    },
+    {
       id: 1,
       title: "CILSA Full Stack Developer",
       provider: "CILSA",
