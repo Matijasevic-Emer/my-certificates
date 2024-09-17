@@ -6,11 +6,12 @@ export const getCertificates = () => {
       provider: "WebExperto",
       state: "En curso",
       startDate: "Agosto 2024",
-      finishDate: "Enero 2025",
+      finishDate: "Octubre 2024",
       durationInMonth: 8,
       stack: ["Docker", "Ruby", "Rails", "Linux"],
       linkCert: "",
       imageBase64: "",
+      linkOrg:"https://web-experto.com.ar/nuevo-bootcamp-2024-de-webexperto-para-desarrolladores-backend/"
     },
     {
       id: 1,
@@ -18,11 +19,12 @@ export const getCertificates = () => {
       provider: "CILSA",
       state: "En curso",
       startDate: "Abril 2024",
-      finishDate: "Noviembre 2024",
+      finishDate: "Octubre 2024",
       durationInMonth: 8,
       stack: ["Node", "React", "Github", "Bootstrap"],
       linkCert: "",
       imageBase64: "",
+      linkOrg:"https://www.cilsa.org/paginas_php/ot/13000/13070/becas-desarrollar-inclusion.html"
     },
     {
       id: 2,
@@ -113,7 +115,8 @@ export const getCertificates = () => {
       durationInHours: 9999,
       stack: ["Java"],
       linkCert: "",
-      imageBase64: ""
+      imageBase64: "",
+      linkOrg:"https://www.coderhouse.com/ar/online/programacion-con-java"
     },
   ];
 };
