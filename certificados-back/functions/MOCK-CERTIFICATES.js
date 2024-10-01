@@ -114,14 +114,14 @@ export const getCertificates = () => {
       id: 8,
       title: "Java",
       provider: "Coderhouse",
-      state: "En curso",
+      state: "complete",
       startDate: "Julio 2024",
       finishDate: "Septiembre 2024",
       durationInMonth: 3,
       durationInHours: 9999,
       stack: ["Java"],
-      linkCert: "",
-      imageBase64: "",
+      linkCert: "https://www.coderhouse.com/ar/certificados/66fbec59d1c51d20ed892182?lang=es",
+      imageBase64: "https://i.imgur.com/yeSuyzy.png",
       linkOrg:"https://www.coderhouse.com/ar/online/programacion-con-java"
     },
   ];
